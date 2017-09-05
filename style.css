@@ -2,18 +2,20 @@
     margin: 0px;
     padding: 0px;
 }
+body {
+    font-family: Tahoma, Arial,  Helvetica, sans-serif;
+}
 .container {
     margin: 10px;
-    width: 400px;
-    height: 550px;
+    width: 380px;
     border: 2px solid black;
     box-sizing: border-box;
 }
 .txt_L {
-    margin: 15px;
+    margin: 6px auto 22px;
     text-align: center;
     font-size: 22px;
-    font-family: Tahoma, Arial,  Helvetica, sans-serif; 
+    font-weight: normal;
 }
 img {
     width: 250px;
@@ -21,31 +23,34 @@ img {
     margin: 0 auto;
     display: block;
 }
+a {
+     text-decoration: none;
+}
 .installments {
     margin-top: 3px;
     width: 190px;
     height: 31px;
-    background: #8bc144;
+    display: block;
+    background-color: #8bc144;
     font-size: 22px;
-    font-family: Tahoma, Arial,  Helvetica, sans-serif;
     color: #ffffff;
     text-align: center;
-    box-shadow: -4px 4px 0px #9c9c9c;
+    box-shadow: -3px 3px 0px #9c9c9c;
 }
 p {
-    margin: 22px;
+    margin: 15px auto;
     font-size: 31px;
-    font-family: Tahoma, Arial,  Helvetica, sans-serif;
     text-align: center;
 }
 .buy {
     margin-left: 74px;
+    margin-bottom: 5px;
     width: 228px;
-    height: 46px;
-    background: #ff0000;
+    height: 45px;
+    display: block;
+    background-color: #ff0000;
     border-bottom: 4px solid #850000;
     font-size: 28px;
-    font-family: Tahoma, Arial,  Helvetica, sans-serif;
     color: #ffffff;
     text-align: center;
     text-shadow: -1px 1px 0px #000000;
